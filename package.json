@@ -7,14 +7,13 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@nuxt/eslint": "^1.2.0",
-    "@nuxt/fonts": "^0.11.0",
-    "@nuxt/icon": "^1.11.0",
-    "@nuxt/scripts": "^0.11.5",
-    "@nuxt/ui": "^3.0.1",
+    "@picocss/pico": "^2.1.1",
     "@unhead/vue": "^2.0.2",
     "eslint": "^9.23.0",
     "nuxt": "^3.16.1",

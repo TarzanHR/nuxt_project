@@ -1,9 +1,6 @@
+import { NuxtPage } from './.nuxt/components';
 <template>
-  <div>
-    <h1>Version: {{version}}</h1>
-  </div>
+	<NuxtLayout>
+		<NuxtPage />
+	</NuxtLayout>
 </template>
-
-<script setup lang="ts">
-const version = '1.0.0'
-</script>
